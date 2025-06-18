@@ -10,8 +10,7 @@ describe("verify the dashboard page", ()=>{
         cy.visit("/web/index.php/auth/login")
         login.loginwithvalidcred(data.username,data.password)
         console.log("in dashboard page")
-        cy.screenshot();
-        
+                
     })
 
     it("verify the side panel", ()=>{
